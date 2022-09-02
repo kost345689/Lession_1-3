@@ -1,16 +1,16 @@
 ﻿// Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
-Console.WriteLine("Введите три числа : ");
+Console.WriteLine("Введите число: ");
 
 int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 2 == 0)
 
-Console.WriteLine("Четное число ");
+Console.WriteLine("Четное число");
 
 else
 
-Console.Write("Введенное число нечетное");
+Console.Write("Нечетное число");
 
  Console.Read();
 
